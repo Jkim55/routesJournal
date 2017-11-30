@@ -1,5 +1,5 @@
-# React/Redux Weather App
-A journaling app created with React w/ Redux.
+# React/Redux Tester App
+An playground app. :)
 
 
 ### Getting Started
