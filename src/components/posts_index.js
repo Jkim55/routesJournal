@@ -9,6 +9,14 @@ class PostsIndex extends Component {
     this.props.fetchPosts()
   }
 
+  componentDidUpdate(){
+    setTimeout(() => console.log('Hello, friend!'), 15) // try a setTimeout instead. :(
+  }
+
+  componentWillUnmount(){
+    console.log('Time for yoga. Byeeeeeeee!')  // this works on a true spa ... unlike Beacon
+  }
+
   render() {
     return (
       <div>
